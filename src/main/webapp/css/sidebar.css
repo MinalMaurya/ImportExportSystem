@@ -1,0 +1,103 @@
+:root {
+  /* widths */
+  --sb-expanded-width: 250px;
+  --sb-collapsed-width: 80px;
+
+  /* colors */
+  --sb-bg:           #2b2e3e; /* dark charcoal */
+  --sb-text:         #ecf0f1; /* off-white */
+  --sb-hover:        #3c4455; /* slightly lighter charcoal on hover */
+  --sb-active-bg:    transparent; /* neutral active background */
+  --sb-active-text:  #ecf0f1; /* off-white text for active links */
+}
+
+/* Sidebar container */
+#sidebar {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  width: var(--sb-expanded-width);
+  background: var(--sb-bg);
+  overflow-y: auto;
+  z-index: 1030;
+  transition: width 0.3s ease;
+}
+#sidebar.sidebar-collapsed {
+  width: var(--sb-collapsed-width);
+}
+
+/* Inner wrapper (for toggle button + nav) */
+#sidebarInner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Toggle button */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--sb-text);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+/* Nav links */
+#sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  color: var(--sb-text);
+  padding: 0.75rem 1rem;
+  transition: background 0.3s ease, color 0.3s ease, padding 0.3s ease;
+  text-decoration: none;
+}
+#sidebar.sidebar-collapsed .nav-link {
+  padding: 0.75rem 0;
+  justify-content: center;
+}
+
+/* Icons and labels */
+#sidebar .nav-link i {
+  font-size: 1.3rem;
+}
+#sidebar .sidebar-text {
+  margin-left: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+#sidebar.sidebar-collapsed .sidebar-text {
+  display: none !important;
+}
+#sidebar.sidebar-expanded .sidebar-text {
+  opacity: 1;
+}
+
+/* Hover state */
+#sidebar .nav-link:hover {
+  background: var(--sb-hover);
+}
+
+/* Active link state */
+#sidebar .nav-link.active {
+  background: var(--sb-active-bg) !important;
+  color: var(--sb-active-text) !important;
+}
+
+/* Exception: no highlight even if active */
+#sidebar .nav-link.no-highlight.active {
+  background: transparent !important;
+  color: var(--sb-text) !important;
+}
+
+/* Shift main content when sidebar toggles */
+body.sidebar-expanded  .main-content {
+  margin-left: var(--sb-expanded-width);
+}
+body.sidebar-collapsed .main-content {
+  margin-left: var(--sb-collapsed-width);
+}
+
+/* Smooth margin transition for main content */
+.main-content {
+  transition: margin-left 0.3s ease;
+}
