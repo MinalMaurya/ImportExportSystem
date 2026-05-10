@@ -14,6 +14,19 @@ Sellers can add new products, update product details, manage received orders, ha
 This system ensures **secure authentication**, **real-time updates**, and **role-based access control** using Java Servlets, JSP, and MySQL — following the **MVC architecture** for clean separation of logic, presentation, and data handling.
 
 ---
+## 🎥 Demo Video
+
+▶️ Watch the complete walkthrough of the Import-Export Management System covering:
+
+- Consumer & Seller authentication
+- Product management and order workflow
+- Cart, order placement & tracking
+- Sales analytics dashboard
+- Complaint/issue reporting system
+- Profile and dashboard management
+
+[▶ Watch Project Demo](https://youtu.be/Xiwr_zZfXvo)
+---
 
 ## **Objectives of the Project**
 
