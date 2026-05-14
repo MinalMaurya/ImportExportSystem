@@ -33,6 +33,8 @@ This system ensures **secure authentication**, **real-time updates**, and **role
 
 ### Login Page
 
+Secure role-based authentication for consumers and sellers.
+
 ![Login Page](Screenshots/common/login-page.png)
 
 
