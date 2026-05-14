@@ -28,6 +28,15 @@ This system ensures **secure authentication**, **real-time updates**, and **role
 [▶ Watch Project Demo](https://youtu.be/Xiwr_zZfXvo)
 ---
 
+## 📸 Screenshots
+### Login Page
+
+![Login Page](Screenshots/common/login-page.png)
+
+
+
+---
+
 ## **Objectives of the Project**
 
 1. To provide a **digital platform** for trade management between sellers and consumers.
