@@ -37,6 +37,37 @@ Secure role-based authentication for consumers and sellers.
 
 ![Login Page](Screenshots/common/login-page.png)
 
+### Consumer Dashboard
+
+
+![Consumer Dashboard](Screenshots/consumer/consumer-dashboard.png)
+
+### View Products
+
+
+![View Products](Screenshots/consumer/consumer-view-products.png)
+
+### Cart Management
+
+![Consumer Cart](Screenshots/consumer/consumer-cart.png)
+
+### My Orders
+
+![My Orders](Screenshots/consumer/consumer-my-orders.png)
+
+### Order Tracking
+
+![Track Orders](Screenshots/consumer/consumer-track-orders.png)
+
+### Report Issues
+
+
+![Report Product](Screenshots/consumer/consumer-report.png)
+
+### Help & Support
+
+
+![Consumer Help](Screenshots/consumer/consumer-help.png)
 
 
 ---
