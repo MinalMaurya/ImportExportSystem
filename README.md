@@ -38,34 +38,37 @@ Secure role-based authentication for consumers and sellers.
 ![Login Page](Screenshots/common/login-page.png)
 
 ### Consumer Dashboard
+Consumers can browse products, place orders, track shipments, and manage their profile.
 
-
-![Consumer Dashboard](Screenshots/consumer/consumer-dashboard.png)
+![Consumer Dashboard](Screenshots/consumer/consumer-dashbaord.png)
 
 ### View Products
-
+Consumers can explore available products with detailed information and pricing.
 
 ![View Products](Screenshots/consumer/consumer-view-products.png)
 
 ### Cart Management
+Consumers can add products to cart and manage order quantities before checkout.
 
 ![Consumer Cart](Screenshots/consumer/consumer-cart.png)
 
 ### My Orders
+Consumers can view all placed orders along with their current status.
 
 ![My Orders](Screenshots/consumer/consumer-my-orders.png)
 
 ### Order Tracking
+Track order progress in real time from placement to delivery.
 
 ![Track Orders](Screenshots/consumer/consumer-track-orders.png)
 
 ### Report Issues
-
+Consumers can report defective or delayed products directly through the portal.
 
 ![Report Product](Screenshots/consumer/consumer-report.png)
 
 ### Help & Support
-
+Provides guidance and support information for consumers using the platform.
 
 ![Consumer Help](Screenshots/consumer/consumer-help.png)
 
