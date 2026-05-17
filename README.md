@@ -37,7 +37,9 @@ Secure role-based authentication for consumers and sellers.
 
 ![Login Page](Screenshots/common/login-page.png)
 
-## Consumer Dashboard
+## Consumer
+
+### Consumer Dashboard
 Consumers can browse products, place orders, track shipments, and manage their profile.
 
 ![Consumer Dashboard](Screenshots/consumer/consumer-dashbaord.png)
@@ -72,7 +74,9 @@ Provides guidance and support information for consumers using the platform.
 
 ![Consumer Help](Screenshots/consumer/consumer-help.png)
 
-## Seller Dashboard
+## Seller
+
+### Seller Dashboard
 
 ![Seller Dashboard](Screenshots/seller/seller-dashboard.png)
 
