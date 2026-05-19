@@ -77,35 +77,42 @@ Provides guidance and support information for consumers using the platform.
 ## Seller
 
 ### Seller Dashboard
+Sellers can manage products, monitor orders, and access platform features from a centralized dashboard.
 
 ![Seller Dashboard](Screenshots/seller/seller-dashboard.png)
 
 ### Product Management
+Sellers can add, update, and manage product listings with pricing and descriptions.
 
 ![Product Management](Screenshots/seller/seller-product-manage.png)
 
 ### Order Details
+Sellers can view customer orders and update order delivery status in real time.
 
 ![Order Details](Screenshots/seller/seller-order-details.png)
 
 ### Sales Analytics
+Track sales performance, revenue insights, and product statistics through analytics dashboards.
 
 ![Sales Analytics](Screenshots/seller/seller-sales1.png)
 
 ### Sales Visualization
-
+Visual representation of sales data using charts and analytics for better business insights.
 
 ![Sales Visualization](Screenshots/seller/seller-sales2-visual.png)
 
 ### Report Handling
+Sellers can manage and respond to consumer-reported product issues efficiently.
 
 ![Seller Report](Screenshots/seller/seller-report.png)
 
 ### Seller Profile
+Manage seller profile details and account-related settings.
 
 ![Seller Profile](Screenshots/seller/seller-profile.png)
 
 ### Help & Support
+Provides support resources and guidance for sellers using the platform.
 
 ![Seller Help](Screenshots/seller/seller-help.png)
 
