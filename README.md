@@ -261,21 +261,71 @@ Database includes **stored procedures** for efficient queries and **triggers** f
 
 ---
 
-## **Steps to Run the Project**
+## 🚀 Steps to Run the Project
 
-1. **Clone or Download** the project.
-2. **Import into Eclipse IDE** → `File > Import > Existing Projects into Workspace`.
-3. **Setup MySQL Database:**
+### 1. Clone or Download the Repository
 
-   * Run `ImportExportFinalDB.sql` in MySQL Workbench.
-   * Update DB credentials in `GetConnection.java`.
-4. **Configure Apache Tomcat** (v10 or above).
-5. **Run the Project:**
+```bash
+git clone https://github.com/MinalMaurya/ImportExportSystem.git
+```
 
-   ```
-   http://localhost:8080/ImportExportPortal/
-   ```
+Or download the ZIP file and extract it.
 
+### 2. Import Project into Eclipse IDE
+
+- Open **Eclipse IDE**
+- Go to:
+
+```plaintext
+File → Import → Existing Projects into Workspace
+```
+
+- Select the project folder
+- Click **Finish**
+
+
+### 3. Setup MySQL Database
+
+- Open **MySQL Workbench**
+- Run the provided SQL file:
+
+```plaintext
+ImportExportFinalDB.sql
+```
+
+This will create the required database tables and procedures.
+
+### 4. Configure Database Credentials
+
+Open:
+
+```plaintext
+src/main/java/db_config/GetConnection.java
+```
+
+Update your MySQL username and password before running the project.
+
+Example:
+
+```java
+DriverManager.getConnection(
+    "jdbc:mysql://127.0.0.1:3306/import_export","YOUR_MYSQL_USERNAME","YOUR_MYSQL_PASSWORD");
+```
+
+### 5. Configure Apache Tomcat
+
+- Install **Apache Tomcat v10+**
+- Add the Tomcat server in Eclipse
+- Configure the project on the server
+
+
+### 6. Run the Project
+
+Start the Tomcat server and open:
+
+```plaintext
+http://localhost:8080/ImportExportPortal/
+```
 ---
 
 ## **Future Enhancements**
